@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f168be0b40537f448b0715ee75ad1357, type: 3}
+  m_Name: Data
+  m_EditorClassIdentifier: 
+  ingredients:
+  - ingredientPrefab: {fileID: 7375236603354253465, guid: ca212ba2ffea07746aab6bf4ff657587, type: 3}
+    chance: 0
+    score: 0
+  - ingredientPrefab: {fileID: 8192315458126235934, guid: ffac4a5abd22ed14997660b65eb474a1, type: 3}
+    chance: 0
+    score: 0
+  - ingredientPrefab: {fileID: 1165964563246679378, guid: 5169a092c92b9d345981395a4e02e422, type: 3}
+    chance: 0
+    score: 0
+  - ingredientPrefab: {fileID: 4967067856713569046, guid: 243c2ffa735decd44b80debd30986985, type: 3}
+    chance: 0
+    score: 0
+  - ingredientPrefab: {fileID: 3584383685277500668, guid: a440b479cc6140b41a0c55499042c9f5, type: 3}
+    chance: 0
+    score: 0
+  - ingredientPrefab: {fileID: 2002683863797573060, guid: 7c4871f7aba3bbb49b0ff1700591f30e, type: 3}
+    chance: 0
+    score: 0
+  - ingredientPrefab: {fileID: 2328035627507286999, guid: a5be859b42ee60148b2bf3bf21cff14b, type: 3}
+    chance: 0
+    score: 0
+  - ingredientPrefab: {fileID: 9112637547120185446, guid: eeb47fbdca0012042ac072df5477fde8, type: 3}
+    chance: 0
+    score: 0
+  - ingredientPrefab: {fileID: 1639654267378470944, guid: 6528793be95d08344afab74352046e4b, type: 3}
+    chance: 0
+    score: 0
