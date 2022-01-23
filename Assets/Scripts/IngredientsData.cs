@@ -13,7 +13,5 @@ public class IngredientsData : ScriptableObject
 [System.Serializable]
 struct Ingredients
 {
-    public Transform ingredientPrefab;
-    public int chance;
-    public int score;
+    public IngredientHandler ingredientPrefab;
 }

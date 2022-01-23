@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4d3d729379510a4d9efbda352ce65e6, type: 3}
+  m_Name: Hard Level
+  m_EditorClassIdentifier: 
+  ingredientData: {fileID: 11400000, guid: 3edf3d1ab83755342af4f24696dde345, type: 2}
+  difficulty: 0
+  gridX: 4
+  gridZ: 4
+  spacing: 1.2

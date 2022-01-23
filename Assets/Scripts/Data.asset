@@ -13,30 +13,12 @@ MonoBehaviour:
   m_Name: Data
   m_EditorClassIdentifier: 
   ingredients:
-  - ingredientPrefab: {fileID: 7375236603354253465, guid: ca212ba2ffea07746aab6bf4ff657587, type: 3}
-    chance: 0
-    score: 0
-  - ingredientPrefab: {fileID: 8192315458126235934, guid: ffac4a5abd22ed14997660b65eb474a1, type: 3}
-    chance: 0
-    score: 0
-  - ingredientPrefab: {fileID: 1165964563246679378, guid: 5169a092c92b9d345981395a4e02e422, type: 3}
-    chance: 0
-    score: 0
-  - ingredientPrefab: {fileID: 4967067856713569046, guid: 243c2ffa735decd44b80debd30986985, type: 3}
-    chance: 0
-    score: 0
-  - ingredientPrefab: {fileID: 3584383685277500668, guid: a440b479cc6140b41a0c55499042c9f5, type: 3}
-    chance: 0
-    score: 0
-  - ingredientPrefab: {fileID: 2002683863797573060, guid: 7c4871f7aba3bbb49b0ff1700591f30e, type: 3}
-    chance: 0
-    score: 0
-  - ingredientPrefab: {fileID: 2328035627507286999, guid: a5be859b42ee60148b2bf3bf21cff14b, type: 3}
-    chance: 0
-    score: 0
-  - ingredientPrefab: {fileID: 9112637547120185446, guid: eeb47fbdca0012042ac072df5477fde8, type: 3}
-    chance: 0
-    score: 0
-  - ingredientPrefab: {fileID: 1639654267378470944, guid: 6528793be95d08344afab74352046e4b, type: 3}
-    chance: 0
-    score: 0
+  - ingredientPrefab: {fileID: 2029623479561446337, guid: ca212ba2ffea07746aab6bf4ff657587, type: 3}
+  - ingredientPrefab: {fileID: 5949095064637038043, guid: ffac4a5abd22ed14997660b65eb474a1, type: 3}
+  - ingredientPrefab: {fileID: 153973477165414548, guid: 5169a092c92b9d345981395a4e02e422, type: 3}
+  - ingredientPrefab: {fileID: 4863515473107785366, guid: 243c2ffa735decd44b80debd30986985, type: 3}
+  - ingredientPrefab: {fileID: 7902821381424764725, guid: a440b479cc6140b41a0c55499042c9f5, type: 3}
+  - ingredientPrefab: {fileID: 1521122990353474483, guid: 7c4871f7aba3bbb49b0ff1700591f30e, type: 3}
+  - ingredientPrefab: {fileID: 8230940258654240334, guid: a5be859b42ee60148b2bf3bf21cff14b, type: 3}
+  - ingredientPrefab: {fileID: 129411679699760555, guid: eeb47fbdca0012042ac072df5477fde8, type: 3}
+  - ingredientPrefab: {fileID: 1249242845342264958, guid: 6528793be95d08344afab74352046e4b, type: 3}
