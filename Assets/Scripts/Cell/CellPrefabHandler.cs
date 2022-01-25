@@ -8,6 +8,7 @@ public class CellPrefabHandler : MonoBehaviour
     [SerializeField] private Transform pivot;
     [SerializeField] private float flippingSpeed = 3f;
 
+    private AudioSource flipAudioSource;
     private float spacing;
     private float height = 0.2f;
 
@@ -17,6 +18,11 @@ public class CellPrefabHandler : MonoBehaviour
 
     public bool IsValidMove() => ingredients.Count > 0;
 
+    private void Awake()
+    {
+        flipAudioSource = GetComponent<AudioSource>();
+    }
+
     /// <summary>
     /// Move cell which hold ingredient to the current cell.
     /// </summary>
@@ -25,7 +31,7 @@ public class CellPrefabHandler : MonoBehaviour
         for (int i = fromCell.ingredients.Count - 1; i >= 0; i--)
             MoveIngredien(fromCell.GetIngredients(i), dir, fromCell.ingredients.Count - 1 - i);
         fromCell.ingredients.Clear();
-        GameManager.Instance.PlayFlipAudio();
+        flipAudioSource.Play();
     }
 
     /// <summary>

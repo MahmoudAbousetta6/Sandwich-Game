@@ -8,8 +8,6 @@ using TMPro;
 
 public class GameManager : MonoBehaviour
 {
-    private static GameManager instance;
-
     [SerializeField] private Transform cellParent;
     [SerializeField] private LevelConfig config;
     [SerializeField] private CellPrefabHandler cell;
@@ -22,8 +20,6 @@ public class GameManager : MonoBehaviour
     [SerializeField] private GameObject inGamePanel;
     [SerializeField] private GameObject winningPanel;
 
-    [SerializeField] private AudioSource flipAudioSource;
-
     private float stratTime;
     private float endTime;
     private List<CellPrefabHandler> instantiatedCells = new List<CellPrefabHandler>();
@@ -35,13 +31,6 @@ public class GameManager : MonoBehaviour
     private HashSet<CellInfo> gameLocation;
 
     private Transform winningPivotTransform;
-
-    public static GameManager Instance { get => instance; set => instance = value; }
-
-    private void Awake()
-    {
-        instance ??= this;
-    }
 
     private void Start()
     {
@@ -95,14 +84,6 @@ public class GameManager : MonoBehaviour
             toCell = null;
             fromCell = null;
         }
-    }
-
-    /// <summary>
-    /// Play flip audio on flip ingredient.
-    /// </summary>
-    public void PlayFlipAudio()
-    {
-        flipAudioSource.Play();
     }
 
     /// <summary>
