@@ -1,12 +1,7 @@
 # 🥪 Sandwich Puzzle Game
+### Gameplay Video ###
+![alt text](https://github.com/MahmoudAbousetta6/Sandwich-Game/master/Images/Gameplay.gif)
 
-<div style="display: flex; justify-content: center;">
-  <video width="90%" controls>
-    <source src="recordings/Game.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</div>
-<p style="text-align: center;"><strong>🎮 Watch the sandwich puzzle game in action!</strong></p>
 
 A fun and engaging Unity-based puzzle game where players assemble sandwiches by dragging ingredients across a grid. The goal is to collect all ingredients and arrange them in the correct order to create a complete sandwich.
 
@@ -126,8 +121,6 @@ Assets/
     ├── Models/                     # 3D models for ingredients and tiles
     ├── Materials/                  # Materials and shaders
     └── Textures/                   # Texture assets
-recordings/
-└── Game.mp4              # Gameplay demonstration video
 ```
 
 ## 🎨 Customization
