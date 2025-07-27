@@ -59,8 +59,8 @@ Sandwich Puzzle Game is a 2D grid-based puzzle game that challenges players to t
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/sandwich-puzzle-game.git
-   cd sandwich-puzzle-game
+   git clone https://github.com/MahmoudAbousetta6/Sandwich-Game.git
+   cd Sandwich-Game
    ```
 
 2. **Open in Unity**
